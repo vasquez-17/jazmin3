@@ -1,0 +1,49 @@
+body {
+    background-image:url("jjjj.jpg.jpg");
+  }
+h1 {
+font-size: 36px;
+color: #38eedfe5;
+border: greenyellow;
+font-family: 'Open Sans';
+text-align: center;
+}
+h2.ESCRIBE {
+font-size: 16px;
+color: #38d9eee5;
+border: greenyellow;
+font-family: 'Open Sans';
+text-align: center;
+}
+form{
+padding: 60px;
+max-width: 400px;
+background-color:#3475bee5;
+margin: 0 auto;
+}
+
+form input, form textarea{
+margin-bottom: 15px;
+font-family: "Roboto", sans-serif;
+width: 100%;
+padding: 10px;
+-webkit-box-sizing: border-box;
+box-sizing: border-box; 
+border: none; 
+color: black; 
+font-size: 1em;
+resize: horizontal; 
+}
+
+form button {
+  display: block;
+  background-color: #ec4e71;
+  padding: 10px 45px 10px 45px;
+  border: 0;
+  font-size: 1em; 
+  color: 	white;
+font-family: "Roboto", sans-serif;
+}
+form input[type="submit"]:hover{
+cursor:pointer;
+}

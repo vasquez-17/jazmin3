@@ -1,0 +1,51 @@
+*{
+    padding: 0px;
+    margin:0px;
+    font-family: century  'Courier', ;
+text-align: center;
+}
+body{
+    background-color:rgb(105, 127, 202) ;
+}
+.home{
+    display: flex;
+    flex-wrap:wrap; 
+
+
+    }
+    image{
+       
+        max-width:100% ;
+align-items: center;
+    display: flex;
+    flex-wrap:wrap;
+    }
+td{
+    background-color:navajowhite;
+    max-width:100% ;
+    transition: 0.4s linear;
+    
+}
+
+footer{
+    text-align: center;
+    background:gainsboro ;
+}
+.caja {
+    font-family: courier;
+    font-size: 18px;
+    font-weight: 400;
+    color: #ffffff;
+    background:rgb(179, 177, 174);
+    margin: 0 0 25px;
+    overflow: hidden;
+    padding: 20px;
+    display: flex;
+    flex-wrap:wrap;
+    text-align: center;
+ }
+ table {
+    border:black 5px solid;
+    width: 100%;
+}
+   

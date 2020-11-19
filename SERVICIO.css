@@ -1,0 +1,39 @@
+body{
+    background-image:url(diseno.jpg);
+    padding: 0px;
+    margin:0px;
+    font-family: Arial, sans-serif;
+text-align: left;
+}
+
+.home{
+    display: flex;
+    flex-wrap:wrap; 
+
+
+    }
+
+  
+td{
+    background-color:navajowhite;
+    max-width:100% ;
+    transition: 0.4s linear;
+    
+}
+
+
+p {
+    font-family: courier;
+    font-size: 20px;
+    font-weight: 400;
+    color:black;
+
+    display: flex;
+    flex-wrap:wrap;
+    text-align: left;
+ }
+ table {
+    border:black 5px solid;
+    width: 100%;
+}
+   

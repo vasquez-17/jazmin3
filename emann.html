@@ -1,0 +1,42 @@
+
+  
+
+
+<html>
+    <head>
+    <title>Validar </title>
+    <link rel="stylesheet" href="registro.css">
+    <script>
+    function comprobarClave(){
+        clave1 = document.f1.clave1.value
+        clave2 = document.f1.clave2.value
+    
+        if (clave1 == "sofia" && clave2=="jazmin"){
+           alert("LOS DATOS INGRESADOS SON CORECTOS...\nBIENVENIDOS A MI PAGINA WEB")
+           var href="inicio.html";
+           window.location=href;
+    }
+        else{
+           alert("LOS DATOS SON INCORRECTOS...\nINTENTALO DE NUEVO");
+    };
+}
+    </script>
+    </head>  
+        <body background="jjjj.jpg.jpg">
+      <body>
+          <h1>BIENVENIDO A NUESTRA PAGINA (I.P.C)</h1>
+    <br>
+    <h2 size="15"><center>PARA MAS INFORMACIÓN ESCRIBE  EL USUARIO Y LA CONTRASEÑA Y TE MOSTRAMOS MÁS DE NUESTRO ESTABLECIMIENTO</CENTER></h2>
+    
+    <br> 
+    <form action="" name="f1">
+    USUARIO: <input type="password" name="clave1" size="20">
+    <br>
+    CONTRASEÑA: <input type="password" name="clave2" size="20">
+    <br><img src="yo.png" height="251px" width="280px"/>
+    <input type="button" value="VERIFICAR" onClick="comprobarClave()">
+    
+    </form>
+    
+    </body>
+    </html>

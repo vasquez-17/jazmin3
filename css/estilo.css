@@ -1,0 +1,44 @@
+body{
+    background-color: cornflowerblue;
+    padding: 0px;
+    margin:0px;
+    font-family: century 'Franklin Gothic Medium', 'Courier', Arial, sans-serif;
+text-align: center;
+}
+
+.home{
+    display: flex;
+    flex-wrap:wrap; 
+
+
+    }
+    image{
+       
+        max-width:100% ;
+align-items: center;
+    display: flex;
+    flex-wrap:wrap;
+    }
+td{
+    background-color:navajowhite;
+    max-width:100% ;
+    transition: 0.4s linear;
+    
+}
+
+
+p {
+    font-family: courier;
+    font-size: 20px;
+    font-weight: 400;
+    color:black;
+
+    display: flex;
+    flex-wrap:wrap;
+    text-align: center;
+ }
+ table {
+    border:black 5px solid;
+    width: 100%;
+}
+   
